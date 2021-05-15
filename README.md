@@ -11,7 +11,8 @@
 - Return a book to the library
   - `-r [Book ID] [Your name] [Your surname]`
 - List all books in the library with the specified filter
-  - `-l [Author | Category | Language | ISBN | Name | Taken | Available] [Filter value (unrequired with some filters)]`
+  - `-l [Author | Category | Language | ISBN | Name] [Filter value]`
+  - `-l [Taken | Available]`
 - Delete a book from the library
   - `-d [Book ID]`
  #### Examples :
