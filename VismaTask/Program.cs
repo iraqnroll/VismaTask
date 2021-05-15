@@ -14,7 +14,8 @@ namespace VismaTask
             Console.WriteLine("-a [Name] [Author] [Category] [Language] [Date published (yyyy-MM-dd)] [ISBN]\t Add a new book to the library.");
             Console.WriteLine("-t [Book ID] [Your name] [Your surname] [Return date (yyyy-MM-dd)]\t Take a book from the library.");
             Console.WriteLine("-r [Book ID] [Your name] [Your surname]\t Return a book to the library.");
-            Console.WriteLine("-l [ Author | Category | Language | ISBN | Name | Taken | Available ] [Filter value]\t List all the books with the specified filter.");
+            Console.WriteLine("-l [ Author | Category | Language | ISBN | Name ] [Filter value]\t List all the books with the specified filter.");
+            Console.WriteLine("-l [ ISBN | Name ]\t List all the books with the specified filter.");
             Console.WriteLine("-d [Book ID]\t Delete a book from the library.");
         }
         static void Main(string[] args)
